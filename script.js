@@ -4,12 +4,9 @@ const jPDinos = [
      "Dilophosaurus"
 ];
 
-function seeDinos(a, b, c){
+function seeDinos(a, ...b){
     console.log(a);
-    console.log(``);
     console.log(b);
-    // console.log(c);
-
 }
 
 seeDinos(...jPDinos)
